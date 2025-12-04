@@ -1,0 +1,123 @@
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.container {
+	width: 100%;
+	margin: 40px auto;
+}
+
+.profile-picture {
+	border-radius: 50%;
+	width: 15%;
+}
+
+.btn-gold {
+	background: rgba(204, 164, 59, 0.7);
+	padding: 20px;
+	border-radius: 15px;
+	transition: background-color 0.3s ease;
+}
+
+.btn-gold:hover{
+	background: black;
+	color: rgba(204, 164, 59, 0.7);
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.card-white-high-shadow {
+    background: rgb(255, 255, 255);
+    padding: 15px 60px 50px 60px ;
+    margin: 50px;
+    box-shadow: 0 30px 30px rgba(204, 164, 59, 0.5);
+    border-radius: 4px;
+    text-align: center;
+} 
+
+.card-white {
+    background: rgb(255, 255, 255);
+    padding: 10px 40px;
+    margin: 40px 50px;
+    box-shadow: 0 20px 30px rgba(204, 164, 59, 0.5);
+    border-radius: 4px;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+	text-align: center;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 30px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	transition: color 0.3s ease;
+}
+
+.list-inline i:hover{
+	color: rgba(204, 164, 59, 0.7)
+}
+
+
+body {
+	color: rgb(36, 47, 64);
+  	font-family: "DM Serif Text", serif;
+  	font-weight: 400;
+  	font-style: normal;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-justify: auto;
+	background-color: rgb(229, 229, 229);
+}
+
+h1, h2, h3 {
+	font-family: "TASA Orbiter", sans-serif;
+  	font-optical-sizing: auto;
+  	font-style: normal;
+	color: rgb(143, 37, 12);
+}
+
+h1 { 
+	letter-spacing: 6px;
+	font-size: 35px;
+	text-align: center;
+	font-weight: 600;
+} 
+
+h2 { 
+	letter-spacing: 5px;
+	font-size: 30px;
+	font-weight: 500;
+} 
+
+a {
+	color: black;
+	text-decoration: none;
+	font-family: "TASA Orbiter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  }
